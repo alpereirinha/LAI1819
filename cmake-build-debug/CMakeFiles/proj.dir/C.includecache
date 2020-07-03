@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bruno/Reversi/estado.h
+list.h
+/home/bruno/Reversi/list.h
+
+/home/bruno/Reversi/funcoes.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+estado.h
+/home/bruno/Reversi/estado.h
+funcoes.h
+/home/bruno/Reversi/funcoes.h
+list.h
+/home/bruno/Reversi/list.h
+
+/home/bruno/Reversi/funcoes.h
+
+/home/bruno/Reversi/list.h
+types.h
+/home/bruno/Reversi/types.h
+
+/home/bruno/Reversi/types.h
+
